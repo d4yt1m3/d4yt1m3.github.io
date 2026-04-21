@@ -1,8 +1,8 @@
 slogan: “宁静致远”
-email: example@email.com
+email: 2950133014@qq.com
 logo: "/images/logo.svg"
 
-mathjax: false # 加载 LateX 数学公式库
+mathjax: true # 加载 LateX 数学公式库
 
 favicon: # 配置网页图标
   small: /images/favicon-16x16.png
@@ -11,7 +11,7 @@ favicon: # 配置网页图标
   safari_pinned_tab: /images/logo.svg
 
 subpage: # 开启“子页”功能，详见 README
-  enable: true
+  enable: false
   pages:
     - name: featTest # 文章的分类（category）名，如 developer
       path: feat # 若不设置则默认使用 name
@@ -46,33 +46,39 @@ foot:
   linksRows: 4
 
 links: # 朋友
-  - name: "Theme Tranquility"
-    url: https://github.com/hooozen/hexo-theme-tranquility
-  - name: "浩然的主页"
-    url: https://hozen.site
+  # - name: "Theme Tranquility"
+  #   url: https://github.com/hooozen/hexo-theme-tranquility
+  # - name: "浩然的主页"
+  #   url: https://hozen.site
+  - name: "chai_na"
+    url: https://chaina1.com
+  - name: "Junwei LI"
+    url: https://nandcpointfm.github.io/
+  - name: "sadsnowcat"
+    url: https://sadsnowcat.com
 
 social:
-  - name: "hooozen"
-    icon: "/images/logo-github.svg"
-    url: https://github.com/hooozen
-  - name: "谁在胡言乱语"
-    icon: "/images/logo-wx.svg"
-    url: https://mp.weixin.qq.com/s?__biz=MzI3NzQ4NDkzNg==&mid=2247484469&idx=1&sn=8a442bb67397f52cce5c38c3f9b41e36&chksm=eb64c0d2dc1349c40d2e1bb55615ae28b3f2951be22f00717b9ade98c851082e42dc666ab45d#rd
-  - name: "Mundooo"
-    icon: "/images/logo-zh.svg"
-    url: https://www.zhihu.com/people/hozen
+  # - name: "hooozen"
+  #   icon: "/images/logo-github.svg"
+  #   url: https://github.com/hooozen
+  # - name: "谁在胡言乱语"
+  #   icon: "/images/logo-wx.svg"
+  #   url: https://mp.weixin.qq.com/s?__biz=MzI3NzQ4NDkzNg==&mid=2247484469&idx=1&sn=8a442bb67397f52cce5c38c3f9b41e36&chksm=eb64c0d2dc1349c40d2e1bb55615ae28b3f2951be22f00717b9ade98c851082e42dc666ab45d#rd
+  # - name: "Mundooo"
+  #   icon: "/images/logo-zh.svg"
+  #   url: https://www.zhihu.com/people/hozen
 
 contacts:
-  - name: "name@example.com"
-    icon: "/images/icon/icon-email.svg"
-    url: "mailto:name@example.com"
+  # - name: "name@example.com"
+  #   icon: "/images/icon/icon-email.svg"
+  #   url: "mailto:name@example.com"
 
 reward: # 赞赏
-  enable: true
-  face: /assets/author-face.jpg # 头像图片
-  paycode: /assets/pay-code.jpg # 支付码图片
-  text: “给作者倒杯卡布奇诺”
-  btnText: 喜欢作者
+  # enable: true
+  # face: /assets/author-face.jpg # 头像图片
+  # paycode: /assets/pay-code.jpg # 支付码图片
+  # text: “给作者倒杯卡布奇诺”
+  # btnText: 喜欢作者
 
 # see https://github.com/gitalk/gitalk
 gitalk: # gitalk 评论
@@ -124,7 +130,7 @@ zh_font:
 
 # 配置时间线 参考 README.md
 timeline:
-  enable: true
+  enable: false
   order: false # 是否按时间正序展示，false 为倒序
   items:
     - name: article
