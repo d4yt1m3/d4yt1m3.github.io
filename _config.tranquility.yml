@@ -1,5 +1,5 @@
 slogan: “宁静致远”
-email: 2950133014@qq.com
+email: 2924058028@qq.com
 logo: "/images/logo.svg"
 
 mathjax: true # 加载 LateX 数学公式库
@@ -33,11 +33,11 @@ index: # 配置首页个性化内容
   about:
     title: 关于
     text:
-      - 酒入豪肠,七分酿成了月光
+      - flag{n0_fl4g}
       -
-      - 余下的三分啸成剑气
+      - 
       -
-      - 绣口一吐就半个盛唐
+      - 
 
 foot:
   title:
@@ -65,7 +65,7 @@ social:
   #   url: https://www.zhihu.com/people/hozen
 
 contacts:
-  # - name: "name@example.com"
+  - name: "2924058028@qq.com"
   #   icon: "/images/icon/icon-email.svg"
   #   url: "mailto:name@example.com"
 
@@ -95,7 +95,7 @@ gitalk: # gitalk 评论
 
 # see https://github.com/tea3/hexo-related-popular-posts
 related_post:
-  enable: true
+  enable: false
   config:
     maxCount: 5 # Maximum count of a list. default 5
     ulClass: # Class name of element. deafult 'popular-posts'
