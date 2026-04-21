@@ -29,7 +29,7 @@ index: # 配置首页个性化内容
   poem:
     - 君不见高堂明镜悲白发
     - 朝如青丝暮成雪
-  photo: /images/about.jpg
+  photo: /images/aboutt.jpg
   about:
     title: 关于
     text:
@@ -46,10 +46,6 @@ foot:
   linksRows: 4
 
 links: # 朋友
-  # - name: "Theme Tranquility"
-  #   url: https://github.com/hooozen/hexo-theme-tranquility
-  # - name: "浩然的主页"
-  #   url: https://hozen.site
   - name: "chai_na"
     url: https://chaina1.com
   - name: "Junwei LI"
@@ -74,11 +70,11 @@ contacts:
   #   url: "mailto:name@example.com"
 
 reward: # 赞赏
-  # enable: true
-  # face: /assets/author-face.jpg # 头像图片
-  # paycode: /assets/pay-code.jpg # 支付码图片
-  # text: “给作者倒杯卡布奇诺”
-  # btnText: 喜欢作者
+  enable: false
+  face: /assets/author-face.jpg # 头像图片
+  paycode: /assets/pay-code.jpg # 支付码图片
+  text: “给作者倒杯卡布奇诺”
+  btnText: 喜欢作者
 
 # see https://github.com/gitalk/gitalk
 gitalk: # gitalk 评论
